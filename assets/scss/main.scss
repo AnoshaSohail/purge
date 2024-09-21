@@ -1,0 +1,7 @@
+@import "@/assets/fonts/helvetica/helvetica";
+@import "@/assets/scss/global/ant/ant";
+@import "@/assets/scss/global/custom/classes"; // Custom Classes
+@import '@/assets/scss/utilities';
+body{
+    font-family: Helvetica, sans-serif !important;
+}
