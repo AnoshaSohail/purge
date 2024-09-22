@@ -219,7 +219,7 @@ $padding-directions: (
 @mixin fonts-utilities {
 
     // Responsive classes with breakpoints
-    @for $value from 1 through 40 {
+    @for $value from 1 through 50 {
         .font-#{$value} {
             font-size: #{$value}px;
         }

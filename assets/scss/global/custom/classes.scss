@@ -1,122 +1,147 @@
 // btn classes
 .primary-btn {
-    background: #1A1A1A !important;
-    color: #fff;
-    border-radius: 100px;
-    font-weight: 500;
-    border: 1px solid #FFFFFF45 !important;
-    font-size: 14px;
-height: 40px !important;
-    &:hover {
-        color: #fff !important;
-        background-color: #282727 !important;
-    }
+  background: #1a1a1a !important;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 500;
+  border: 1px solid #ffffff45 !important;
+  font-size: 14px;
+  height: 40px !important;
+  &:hover {
+    color: #fff !important;
+    background-color: #282727 !important;
+  }
 
-    &:focus {
-        color: #fff !important;
-        background-color: #282727 !important;
-    }
+  &:focus {
+    color: #fff !important;
+    background-color: #282727 !important;
+  }
 }
 
 .disabled-btn {
-    background: #f4f4f4 !important;
-    border: 0.2px solid #e2e2e2 !important;
-    color: #d4d3d3 !important;
-    pointer-events: none;
+  background: #f4f4f4 !important;
+  border: 0.2px solid #e2e2e2 !important;
+  color: #d4d3d3 !important;
+  pointer-events: none;
 }
 // Text classes
 .text-center {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .text-uppercase {
-    text-transform: uppercase !important;
+  text-transform: uppercase !important;
 }
 
 .text-capitalize {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
-.text-italic{
-    font-style: italic;
+.text-italic {
+  font-style: italic;
 }
 .text-left {
-    text-align: left !important;
+  text-align: left !important;
 }
 .text-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .text-right {
-    text-align: right !important;
+  text-align: right !important;
 }
 
 .text-justify {
-    text-align: justify !important;
+  text-align: justify !important;
 }
 
 .text-line-through {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .text-bold {
-    font-weight: bold !important;
+  font-weight: bold !important;
 }
 
 .text-decoration-underlined {
-    text-decoration: underline !important;
+  text-decoration: underline !important;
+}
+//color
+.smoke-text {
+  color: #ffffffb2 !important;
+}
+.white-text {
+  color: #ffffff;
 }
 // Float
 .float-right {
-    float: right !important;
+  float: right !important;
 }
 
 .float-left {
-    float: left !important;
+  float: left !important;
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .help {
-    cursor: help;
+  cursor: help;
 }
 .col-alignment {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .d-none {
-    display: none !important;
+  display: none !important;
 }
 .justify-content-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
-.justify-content-center{
-    justify-content: center;
+.justify-content-center {
+  justify-content: center;
 }
-.justify-content-end{
-    justify-content: end;
+.justify-content-end {
+  justify-content: end;
 }
-.overflow-hide{
-    overflow: hidden;
+.overflow-hide {
+  overflow: hidden;
 }
 .main-content {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.bounce-button {
+  transition: transform 0.3s ease-out;
+  &:active {
+    animation: bounce 0.3s ease-out;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 @media screen and (max-width: 1440px) {
-    .main-content {
-        padding: 0 20px;
-    }
+  .main-content {
+    padding: 0 20px;
+  }
 }
 @media screen and (min-width: 1441px) {
-    .main-content {
-        max-width: 1440px;
-    }
+  .main-content {
+    max-width: 1440px;
+  }
 }

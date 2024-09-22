@@ -1,11 +1,35 @@
-.header{
+.header {
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  .ant-menu-overflow {
+    justify-content: center;
+  }
+  .ant-menu-light {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
     background: transparent;
-    .ant-menu-overflow{
-        justify-content: center;
+    font-weight: 400;
+    border: 1px solid #ffffff1f;
+    border-radius: 12px;
+    max-width: fit-content;
+    &:hover {
+      color: white !important;
     }
-    .ant-menu-title-content{
-        color: #FFFFFF;
-        font-size: 16px;
-        line-height: 20px;
-    }
+  }
+
+  .ant-menu li.ant-menu-item.ant-menu-item-selected {
+    color: white;
+  }
+}
+.menu-popover {
+  background-color: #0a0a0a;
+  .ant-popover .ant-popover-inner {
+    background-color: #0a0a0a;
+  }
+  .header-list {
+    color: white;
+  }
 }

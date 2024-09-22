@@ -4,5 +4,7 @@ import Antd from 'ant-design-vue'
 import 'ant-design-vue/es/style'
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.use(Antd)
+  if (process.client) {
+    nuxtApp.vueApp.use(Antd)
+  }
 })

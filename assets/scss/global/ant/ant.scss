@@ -1,5 +1,17 @@
 @import './_button';
+@import './_popover';
+@import './_menu';
 :where(.css-dev-only-do-not-override-b92jn9).ant-layout{
     font-family: Helvetica, sans-serif !important;
     background: #101010;
+}
+/* .css-dev-only-do-not-override-b92jn9 {
+    all: initial; 
+  } */
+//cards
+:where(.css-dev-only-do-not-override-b92jn9).ant-card{
+    background-color: #2A2B2B52;
+    .ant-card-body{
+        padding: 20px;
+    }
 }

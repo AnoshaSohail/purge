@@ -3,7 +3,7 @@
         <a-layout>
             <Header />
             <a-layout-content>
-                <div class="layout-content main-content">
+                <div class="layout-content">
                     <slot />
                 </div>
             </a-layout-content>

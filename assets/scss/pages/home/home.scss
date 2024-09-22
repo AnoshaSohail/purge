@@ -1,6 +1,37 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #101010;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #101010;
+}
+.home-page {
+  background: url("/static/images/header-pattren.svg");
+  background-color: #010001;
+  position: relative;
+  &::after {
+    content: "";
+    background: url("/static/images/left-box.svg");
+    height: 612px;
+    width: 612px;
+    position: absolute;
+    bottom: 0;
+  }
+  &::before {
+    content: "";
+    background: url("/static/images/right-box.svg");
+    height: 612px;
+    width: 612px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .banner {
+    padding: 55px 0;
+    .banner-heading {
+      color: white;
+    }
+  }
+}
+.service-card {
+ max-width: 288px;
 }
