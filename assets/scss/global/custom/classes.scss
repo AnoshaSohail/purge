@@ -112,10 +112,14 @@
   overflow: hidden;
 }
 .main-content {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
+}
+.grey-thick-border{
+  border: 3px solid #3E3F3F52;
+  border-radius: 10px;
 }
 .bounce-button {
   transition: transform 0.3s ease-out;
@@ -135,13 +139,13 @@
     transform: scale(1);
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1437px) {
   .main-content {
     padding: 0 20px;
   }
 }
 @media screen and (min-width: 1441px) {
   .main-content {
-    max-width: 1440px;
+    max-width: 1200px;
   }
 }

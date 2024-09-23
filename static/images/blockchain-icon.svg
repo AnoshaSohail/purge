@@ -1,0 +1,15 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_519_1338" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+<rect width="50" height="50" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_519_1338)">
+<path d="M40.9167 30.125C40.9167 36.0912 36.0912 40.9167 30.125 40.9167L31.7438 38.2187" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.0835 20.875C10.0835 14.9088 14.9089 10.0834 20.8752 10.0834L19.2564 12.7813" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.1206 13.8605L34.2564 17.4063L40.3306 13.8759" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.2563 23.6809V17.3909" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.8073 10.4071L29.1073 12.4575C28.2748 12.92 27.5811 14.0916 27.5811 15.0475V18.9634C27.5811 19.9192 28.2594 21.0908 29.1073 21.5533L32.8073 23.6038C33.5936 24.0509 34.8885 24.0509 35.6902 23.6038L39.3902 21.5533C40.2227 21.0908 40.9165 19.9192 40.9165 18.9634V15.0475C40.9165 14.0916 40.2381 12.92 39.3902 12.4575L35.6902 10.4071C34.904 9.97546 33.609 9.97546 32.8073 10.4071Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.623 30.8187L16.7435 34.3645L22.833 30.8342" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.7437 40.6391V34.3491" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15.3097 27.3654L11.6098 29.4157C10.7773 29.8782 10.0835 31.0499 10.0835 32.0057V35.9216C10.0835 36.8774 10.7618 38.0491 11.6098 38.5116L15.3097 40.562C16.096 41.0091 17.391 41.0091 18.1927 40.562L21.8927 38.5116C22.7252 38.0491 23.4189 36.8774 23.4189 35.9216V32.0057C23.4189 31.0499 22.7406 29.8782 21.8927 29.4157L18.1927 27.3654C17.391 26.9337 16.096 26.9337 15.3097 27.3654Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

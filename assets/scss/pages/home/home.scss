@@ -33,5 +33,10 @@ body {
   }
 }
 .service-card {
- max-width: 288px;
+  display: flex;
+  justify-content: center;
+  .ant-card {
+    max-width: 288px;
+  }
 }
+
