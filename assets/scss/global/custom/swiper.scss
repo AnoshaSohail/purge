@@ -1,0 +1,9 @@
+.swiper-slide{
+    width: fit-content !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    display: none;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: var(--swiper-navigation-sides-offset, 94%);
+}

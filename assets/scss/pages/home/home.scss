@@ -39,4 +39,26 @@ body {
     max-width: 288px;
   }
 }
-
+.reviews{
+  .rating{
+    max-width: 390px;
+  }
+  .navigation-btns{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.contact-form{
+  border-radius: 34px;
+  background: #2A2B2B52;
+  backdrop-filter: blur(4px);
+    /* &::after {
+    content: "";
+    background: url("/static/images/right-box.svg");
+    height: 732px;
+    width: 732px;
+    position: absolute;
+    bottom: 0;
+  } */
+}

@@ -15,18 +15,20 @@
     <WhatWeDo />
     <CaseStudy />
     <Reviews />
+    <ContactForm />
   </div>
 </template>
 
 <script>
 import CaseStudy from './CaseStudy.vue';
+import ContactForm from './ContactForm.vue';
 import Reviews from './Reviews.vue';
 import WhatWeDo from './WhatWeDo.vue';
 
 
 export default {
   components: {
-    WhatWeDo, CaseStudy, Reviews
+    WhatWeDo, CaseStudy, Reviews , ContactForm
   }
 };
 </script>
