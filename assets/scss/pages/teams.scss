@@ -1,0 +1,54 @@
+.teams{
+  .our-team {
+    background: url("/static/images/header-pattren.svg");
+    background-color: #010001;
+    position: relative;
+    &::after {
+      content: "";
+      background: url("/static/images/left-box.svg");
+      height: 612px;
+      width: 612px;
+      position: absolute;
+      bottom: 0;
+    }
+    &::before {
+      content: "";
+      background: url("/static/images/right-box.svg");
+      height: 612px;
+      width: 612px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    .banner {
+      padding: 55px 0;
+      .banner-heading {
+        color: white;
+      }
+    }
+  }
+  .img-border{
+    background: #979393;
+    width: fit-content;
+    padding: 4px;
+  }
+  .marketing-img{
+    background: #4C99B238;
+    width: fit-content;
+    padding: 4px;
+  }
+  .purge-card{
+    backdrop-filter: blur(4px);
+    background: #2A2B2B52;
+    min-height: 387px;
+    max-width: 288px;
+  }
+  .float-img-right{
+    right: 19%;
+    top: 50%;
+  }
+  .float-img-left{
+    left: 21%;
+    top: 50%;
+  }
+}

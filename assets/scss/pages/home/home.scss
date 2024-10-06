@@ -32,6 +32,12 @@ body {
     }
   }
 }
+.border {
+  background: #3c3c3c80;
+  width: 0.5px;
+  height: 500px;
+  margin-inline: 44px;
+}
 .service-card {
   display: flex;
   justify-content: center;
@@ -39,21 +45,21 @@ body {
     max-width: 288px;
   }
 }
-.reviews{
-  .rating{
+.reviews {
+  .rating {
     max-width: 390px;
   }
-  .navigation-btns{
+  .navigation-btns {
     position: relative;
     display: flex;
     justify-content: flex-end;
   }
 }
-.contact-form{
+.contact-form {
   border-radius: 34px;
-  background: #2A2B2B52;
+  background: #2a2b2b52;
   backdrop-filter: blur(4px);
-    /* &::after {
+  /* &::after {
     content: "";
     background: url("/static/images/right-box.svg");
     height: 732px;

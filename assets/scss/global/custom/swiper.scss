@@ -5,5 +5,5 @@
     display: none;
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: var(--swiper-navigation-sides-offset, 94%);
+    left: var(--swiper-navigation-sides-offset, 94%) !important;
 }

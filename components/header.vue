@@ -7,19 +7,21 @@
             <a-col :lg="16" align="middle">
                 <a-menu v-model="current" mode="horizontal">
                     <a-menu-item key="home">
-                        Home
+                        <nuxt-link to="/">
+                            Home</nuxt-link>
                     </a-menu-item>
                     <a-menu-item key="services">
                         Services
                     </a-menu-item>
                     <a-menu-item key="team">
-                        Team
+                        <nuxt-link to="/teams">Team</nuxt-link>
                     </a-menu-item>
                     <a-menu-item key="portfolio">
                         Portfolio
                     </a-menu-item>
                     <a-menu-item key="company">
-                        <a-popover :title="false" trigger="hover" placement="bottomLeft" overlay-class-name="menu-popover">
+                        <a-popover :title="false" trigger="hover" placement="bottomLeft"
+                            overlay-class-name="menu-popover">
                             <template #content>
                                 <div class="header-list">
                                     list item 1

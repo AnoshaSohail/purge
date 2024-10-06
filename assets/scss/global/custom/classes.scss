@@ -61,7 +61,9 @@
 .text-bold {
   font-weight: bold !important;
 }
-
+.mt-130{
+  margin-top: 130px !important;
+}
 .text-decoration-underlined {
   text-decoration: underline !important;
 }
@@ -71,6 +73,19 @@
 }
 .white-text {
   color: #ffffff;
+}
+.light-grey{
+  color: #FFFFFF4D;
+}
+//positions
+.position-rel{
+  position: relative;
+}
+.position-abs{
+  position: absolute;
+}
+.position-fix{
+  position: fixed;
 }
 // Float
 .float-right {
@@ -88,8 +103,11 @@
 .help {
   cursor: help;
 }
+.z-index{
+  z-index: 10000;
+}
 .col-alignment {
-  display: flex;
+  display: flex !important;
   align-items: center;
 }
 .d-flex {
@@ -127,7 +145,9 @@
     animation: bounce 0.3s ease-out;
   }
 }
-
+.radius-50{
+  border-radius: 50%;
+}
 @keyframes bounce {
   0% {
     transform: scale(1);
