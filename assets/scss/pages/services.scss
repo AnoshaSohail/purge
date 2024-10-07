@@ -1,0 +1,16 @@
+.services{
+    .our-services {
+        background: url("/static/images/multi-bg.svg");
+        background-color: #010001;
+        .banner {
+          padding: 148px 0 73px 0;
+          .banner-heading {
+            color: white;
+          }
+          .ant-btn{
+            height: 56px !important;
+            width: 198px !important;
+          }
+        }
+      }
+}

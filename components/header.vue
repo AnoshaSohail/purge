@@ -11,7 +11,7 @@
                             Home</nuxt-link>
                     </a-menu-item>
                     <a-menu-item key="services">
-                        Services
+                        <nuxt-link to="/services">Services</nuxt-link> 
                     </a-menu-item>
                     <a-menu-item key="team">
                         <nuxt-link to="/teams">Team</nuxt-link>
