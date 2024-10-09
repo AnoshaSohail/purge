@@ -3,6 +3,12 @@
   position: absolute;
   width: 100%;
   z-index: 1000;
+  .header-menu,.contact-btn{
+    display: inline-block;
+  }
+  .drawer-btn{
+    display: none;
+  }
   .ant-btn{
     min-width: 130px;
   }
@@ -25,6 +31,19 @@
 
   .ant-menu li.ant-menu-item.ant-menu-item-selected {
     color: white;
+  }
+  @media screen and (max-width:768px){
+    .header-menu{
+      display: none;
+    }
+    .drawer-btn{
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width:576px){
+    .contact-btn{
+      display: none;
+    }
   }
 }
 .menu-popover {
