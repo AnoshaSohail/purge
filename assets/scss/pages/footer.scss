@@ -7,4 +7,9 @@
             cursor: pointer;
         }
     }
+    @media screen and (max-width: 320px) {
+        .footer-menu{
+            display: block !important;
+        }
+    }
 }

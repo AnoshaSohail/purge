@@ -5,12 +5,13 @@ body {
   background: #101010;
 }
 .home-page {
-  background: url("/static/images/header-pattren.svg");
+  background: url("/images/header-pattren.svg");
   background-color: #010001;
   position: relative;
+  overflow: hidden;
   &::after {
     content: "";
-    background: url("/static/images/left-box.svg");
+    background: url("/images/left-box.svg");
     height: 612px;
     width: 612px;
     position: absolute;
@@ -18,7 +19,7 @@ body {
   }
   &::before {
     content: "";
-    background: url("/static/images/right-box.svg");
+    background: url("/images/right-box.svg");
     height: 612px;
     width: 612px;
     position: absolute;
@@ -27,9 +28,17 @@ body {
   }
   .banner {
     padding: 55px 0;
+    img{
+      width: 100%;
+    }
     .banner-heading {
       color: white;
     }
+  }
+}
+.case-studies{
+  img{
+    width: 100%;
   }
 }
 .border {
@@ -61,7 +70,7 @@ body {
   backdrop-filter: blur(4px);
   /* &::after {
     content: "";
-    background: url("/static/images/right-box.svg");
+    background: url("/images/right-box.svg");
     height: 732px;
     width: 732px;
     position: absolute;

@@ -1,33 +1,33 @@
 <template>
   <div class="reviews mt-37 main-content">
-    <p class="mb-0 fw-7 font-35 lh-45 white-text text-center">What people are saying</p>
+    <p class="mb-0 fw-7 font-lg-35 font-sm-33  lh-45 white-text text-center">What people are saying</p>
     <swiper :slides-per-view="3" class="mySwiper mt-25" :space-between="0" @swiper="onSwiper"
       @slideChange="onSlideChange" :navigation="{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
       }" :modules="modules">
       <swiper-slide v-for="(review, index) in reviews" :key="index" class="col-alignment">
-        <div class="rating font-20 lh-40 fw-4 white-text">
+        <div class="rating font-lg-20 font-sm-18  lh-40 fw-4 white-text">
           <div class="ratings-stars mb-10 col-alignment">
             <span class="mr-5">{{ review.rating }}</span>
             <span class="stars col-alignment">
-              <img src="/static/images/active-star.svg" alt="" class="mr-3">
-              <img src="/static/images/active-star.svg" alt="" class="mr-3">
-              <img src="/static/images/active-star.svg" alt="" class="mr-3">
-              <img src="/static/images/active-star.svg" alt="" class="mr-3">
-              <img src="/static/images/star.svg" alt="" class="mr-3">
+              <img src="/images/active-star.svg" alt="" class="mr-3">
+              <img src="/images/active-star.svg" alt="" class="mr-3">
+              <img src="/images/active-star.svg" alt="" class="mr-3">
+              <img src="/images/active-star.svg" alt="" class="mr-3">
+              <img src="/images/star.svg" alt="" class="mr-3">
             </span>
           </div>
-          <p class="project-name font-20 lh-35 fw-5 white-text mt-0 mb-5">
+          <p class="project-name font-lg-20 font-sm-18  lh-35 fw-5 white-text mt-0 mb-5">
             {{ review.projectName }}
           </p>
-          <p class="remarks fw-3 font-14 lh-30 smoke-text mb-7 mt-0">
+          <p class="remarks fw-3 font-lg-14 font-sm-12  lh-30 smoke-text mb-7 mt-0">
             {{ review.remarks }}
           </p>
           <div class="user col-alignment">
-            <img src="/static/images/review-user.svg" alt="">
+            <img src="/images/review-user.svg" alt="">
             <div class="ml-3">
-              <p class="name fw-3 font-16 lh-30 white-text my-0">{{ review.userName }}</p>
+              <p class="name fw-3 font-lg-16 font-sm-14  lh-30 white-text my-0">{{ review.userName }}</p>
               <p class="role fw-3 font-13 lh-30 smoke-text my-0">{{ review.userRole }}</p>
             </div>
           </div>
@@ -38,10 +38,10 @@
       <!-- Custom Navigation Buttons -->
       <div class="mt-25 mb-38 navigation-btns">
         <div class="swiper-button-prev">
-          <img src="/static/images/back-arrow-gray.svg" alt="Previous" />
+          <img src="/images/back-arrow-gray.svg" alt="Previous" />
         </div>
         <div class="swiper-button-next">
-          <img src="/static/images/forward-arrow-white.svg" alt="Next" />
+          <img src="/images/forward-arrow-white.svg" alt="Next" />
         </div>
       </div>
 
@@ -71,7 +71,7 @@ export default {
 
           projectName: 'Digital Marketing for Private Investment Firm',
           remarks: 'In a competitive market like crypto, there is a bunch of highly skilled professionals, but not all of them have amazing people skills and work ethic. Working with the Ninjas is a pleasure because they really adapt to the work dynamic of the client. Always ready for discussion and looking for the best solutions for the project even when the going gets rough. The way how they helped us meet some of the demanding deadlines was truly impressive.',
-          userImage: '/static/images/review-user.svg',
+          userImage: '/images/review-user.svg',
           userName: 'Jacob Kappus',
           userRole: 'CMO Ultron Foundation',
         },
@@ -80,7 +80,7 @@ export default {
 
           projectName: 'Digital Marketing for Private Investment Firm',
           remarks: 'In a competitive market like crypto, there is a bunch of highly skilled professionals, but not all of them have amazing people skills and work ethic. Working with the Ninjas is a pleasure because they really adapt to the work dynamic of the client. Always ready for discussion and looking for the best solutions for the project even when the going gets rough. The way how they helped us meet some of the demanding deadlines was truly impressive.',
-          userImage: '/static/images/review-user.svg',
+          userImage: '/images/review-user.svg',
           userName: 'Jacob Kappus',
           userRole: 'CMO Ultron Foundation',
         },
@@ -89,7 +89,7 @@ export default {
 
           projectName: 'Digital Marketing for Private Investment Firm',
           remarks: 'In a competitive market like crypto, there is a bunch of highly skilled professionals, but not all of them have amazing people skills and work ethic. Working with the Ninjas is a pleasure because they really adapt to the work dynamic of the client. Always ready for discussion and looking for the best solutions for the project even when the going gets rough. The way how they helped us meet some of the demanding deadlines was truly impressive.',
-          userImage: '/static/images/review-user.svg',
+          userImage: '/images/review-user.svg',
           userName: 'Jacob Kappus',
           userRole: 'CMO Ultron Foundation',
         },
@@ -98,7 +98,7 @@ export default {
 
           projectName: 'Digital Marketing for Private Investment Firm',
           remarks: 'In a competitive market like crypto, there is a bunch of highly skilled professionals, but not all of them have amazing people skills and work ethic. Working with the Ninjas is a pleasure because they really adapt to the work dynamic of the client. Always ready for discussion and looking for the best solutions for the project even when the going gets rough. The way how they helped us meet some of the demanding deadlines was truly impressive.',
-          userImage: '/static/images/review-user.svg',
+          userImage: '/images/review-user.svg',
           userName: 'Jacob Kappus',
           userRole: 'CMO Ultron Foundation',
         },
@@ -107,7 +107,7 @@ export default {
 
           projectName: 'Digital Marketing for Private Investment Firm',
           remarks: 'In a competitive market like crypto, there is a bunch of highly skilled professionals, but not all of them have amazing people skills and work ethic. Working with the Ninjas is a pleasure because they really adapt to the work dynamic of the client. Always ready for discussion and looking for the best solutions for the project even when the going gets rough. The way how they helped us meet some of the demanding deadlines was truly impressive.',
-          userImage: '/static/images/review-user.svg',
+          userImage: '/images/review-user.svg',
           userName: 'Jacob Kappus',
           userRole: 'CMO Ultron Foundation',
         },
@@ -116,7 +116,7 @@ export default {
 
           projectName: 'Digital Marketing for Private Investment Firm',
           remarks: 'In a competitive market like crypto, there is a bunch of highly skilled professionals, but not all of them have amazing people skills and work ethic. Working with the Ninjas is a pleasure because they really adapt to the work dynamic of the client. Always ready for discussion and looking for the best solutions for the project even when the going gets rough. The way how they helped us meet some of the demanding deadlines was truly impressive.',
-          userImage: '/static/images/review-user.svg',
+          userImage: '/images/review-user.svg',
           userName: 'Jacob Kappus',
           userRole: 'CMO Ultron Foundation',
         },

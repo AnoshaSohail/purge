@@ -4,10 +4,10 @@
       <div class="banner  main-content">
         <a-row class="banner-row" type="flex" align="middle" justify="center">
           <a-col class="text-center">
-            <p class="mb-0 fw-7 font-45 lh-60 white-text">Purge the Old, Power the New!</p>
-            <p class="mb-0 smoke-text font-20 lh-30 fw-4">Your all-in-one solution: design, development, content, and
+            <p class="mb-0 fw-7 font-lg-45 font-sm-43  lh-60 white-text">Purge the Old, Power the New!</p>
+            <p class="mb-0 smoke-text font-lg-20 font-sm-18  lh-30 fw-4">Your all-in-one solution: design, development, content, and
               <br> ads from a world-leading digital marketing agency.</p>
-            <img src="/static/images/header-bg.svg" alt="">
+            <img src="/images/header-bg.svg" alt="">
           </a-col>
         </a-row>
       </div>

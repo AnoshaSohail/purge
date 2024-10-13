@@ -5,5 +5,15 @@
     display: none;
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: var(--swiper-navigation-sides-offset, 94%) !important;
+    left: var(--swiper-navigation-sides-offset, 90%) !important;
+}
+@media screen and (max-width:575px) {
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: var(--swiper-navigation-sides-offset, 85%) !important;
+    }
+}
+@media screen and (max-width:320px) {
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: var(--swiper-navigation-sides-offset, 75%) !important;
+    }
 }

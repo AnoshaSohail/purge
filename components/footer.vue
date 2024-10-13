@@ -1,61 +1,89 @@
 <template>
   <div class=" footer mt-30 mb-19">
-    <div class="footer-content d-flex justify-content-between mb-10 main-content">
-      <div class="logo">
-      <img src="/static/images/purge.svg" alt="">
-    </div>
-    <div class="footer-menu">
-      <div class="heading fw-4 font-17 lh-19 white-text mb-5">Company</div>
-      <ul>
-        <li class="lh-17 font-15 fw-4 smoke-text">About us</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Careers</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Hire us</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Our team</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Contact</li>
-      </ul>
-    </div>
-    <div class="footer-menu">
-      <div class="heading fw-4 font-17 lh-19 white-text mb-5">Services</div>
-      <ul>
-        <li class="lh-17 font-15 fw-4 smoke-text">Web Development</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Mobile App Development</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Blockchain Development</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Web & Graphics Designing</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Digital Marketing</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Search Engine Optimization</li>
-      </ul>
-    </div>
-    <div class="footer-menu">
-      <div class="heading fw-4 font-17 lh-19 white-text mb-5">Contact Us</div>
-      <ul>
-        <li class="lh-17 font-15 fw-4 smoke-text">purgepvtltd@gmail.com</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">+34 602 02 55 97</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">+92 330 6985794</li>
-        <li class="lh-17 font-15 fw-4 smoke-text">Prism Arcade 2 Bahria Town Phase 7</li>
-      </ul>
-    </div>
-    <div class="footer-menu">
-      <div class="heading fw-4 font-17 lh-19 white-text mb-5">Follow Us</div>
-     <div class="social-media">
-      <img src="/static/images/twitter.svg" alt="" class="mr-4">
-      <img src="/static/images/linkedin.svg" alt="" class="mr-4">
-      <img src="/static/images/insta.svg" alt="" class="mr-4">
-      <img src="/static/images/yt-icon.svg" alt="" class="mr-4">
-      <img src="/static/images/fb-icon.svg" alt="" class="mr-4">
-     </div>
-    </div>
+    <div class="mb-10 main-content">
+      <a-row :gutter="[0,16]">
+        <a-col :xs="24" :md="5" :lg="5">
+          <div class="logo">
+            <img src="/images/purge.svg" alt="">
+          </div>
+        </a-col>
+        <a-col :xs="24" :md="14" :lg="14">
+          <div class="footer-menu d-flex justify-content-between">
+            <a-list v-for="section in data" :key="section.title"
+               :data-source="section.items">
+              <template #header>
+                <div class="heading fw-4 font-lg-17 font-sm-15  lh-19 white-text mb-5 p-0">{{ section.title }}</div>
+              </template>
+              <template #renderItem="{ item }">
+                <a-list-item class="lh-17 font-lg-15 font-sm-13 fw-4 smoke-text p-0">{{ item }}</a-list-item>
+              </template>
+            </a-list>
+          </div>
+        </a-col>
+        <a-col :xs="24" :md="{offset:1, span:4}" :lg="{offset:1, span:4}">
+          <div class="footer-menu">
+            <div class="heading fw-4 font-lg-17 font-sm-15  lh-19 white-text mb-5 text-left">Follow Us</div>
+            <div class="social-media">
+              <img src="/images/twitter.svg" alt="" class="mr-4">
+              <img src="/images/linkedin.svg" alt="" class="mr-4">
+              <img src="/images/insta.svg" alt="" class="mr-4">
+              <img src="/images/yt-icon.svg" alt="" class="mr-4">
+              <img src="/images/fb-icon.svg" alt="" class="mr-4">
+            </div>
+          </div>
+        </a-col>
+      </a-row>
+
+
+
     </div>
     <a-divider style="height: 1px; background-color: #222222" />
     <div class="main-content copyrights col-alignment">
-      <p class="lh-17 font-15 fw-4 light-grey mx-0 pr-5">Copyright 2024 Purge All Rights Reserved</p>
-      <p class="lh-17 font-15 fw-4 light-grey pointer mx-0 pr-5">Privacy Policy</p>
-      <p class="lh-17 font-15 fw-4 light-grey pointer mx-0">Terms & Conditions</p>
+      <p class="lh-17 font-lg-15 font-sm-13 fw-4 light-grey mx-0 pr-5">Copyright 2024 Purge All Rights Reserved</p>
+      <p class="lh-17 font-lg-15 font-sm-13 fw-4 light-grey pointer mx-0 pr-5">Privacy Policy</p>
+      <p class="lh-17 font-lg-15 font-sm-13 fw-4 light-grey pointer mx-0">Terms & Conditions</p>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      data: [
+        {
+          title: 'Company',
+          items: [
+            'About us',
+            'Careers',
+            'Hire us',
+            'Our team',
+            'Contact',
+          ],
+        },
+        {
+          title: 'Services',
+          items: [
+            'Web Development',
+            'Mobile App Development',
+            'Blockchain Development',
+            'Web & Graphics Designing',
+            'Digital Marketing',
+            'Search Engine Optimization',
+          ],
+        },
+        {
+          title: 'Contact Us',
+          items: [
+            'purgepvtltd@gmail.com',
+            '+34 602 02 55 97',
+            '+92 330 6985794',
+            'Prism Arcade 2 Bahria Town Phase 7',
+          ],
+        },
+      ],
+    }
+  }
 };
 </script>
 

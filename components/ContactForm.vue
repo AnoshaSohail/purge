@@ -1,8 +1,8 @@
 <template>
     <div class="main-content contact-form px-10 py-17">
         <div class="mb-15">
-            <p class="mb-0 fw-4 font-35 lh-45 white-text mt-0">Let’s Discuss Your Idea Now</p>
-            <p class="mb-0 smoke-text font-20 lh-30 fw-3">Provide your email and we’ll get back to you ASAP!</p>
+            <p class="mb-0 fw-4 font-lg-35 font-sm-33  lh-45 white-text mt-0">Let’s Discuss Your Idea Now</p>
+            <p class="mb-0 smoke-text font-lg-20 font-sm-18  lh-30 fw-3">Provide your email and we’ll get back to you ASAP!</p>
         </div>
 
         <a-form :model="formData" :rules="rules" ref="form" @submit.prevent="handleSubmit">

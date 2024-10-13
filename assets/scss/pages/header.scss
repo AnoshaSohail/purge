@@ -6,6 +6,9 @@
   .header-menu,.contact-btn{
     display: inline-block;
   }
+  .menu-btn{
+    justify-content: space-between;
+  }
   .drawer-btn{
     display: none;
   }
@@ -39,9 +42,10 @@
     .drawer-btn{
       display: inline-block;
     }
-  }
-  @media screen and (max-width:576px){
-    .contact-btn{
+    .menu-btn{
+      justify-content: end;
+    }
+     .contact-btn{
       display: none;
     }
   }

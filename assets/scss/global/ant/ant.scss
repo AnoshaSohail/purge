@@ -2,6 +2,7 @@
 @import './_popover';
 @import './_menu';
 @import './_form';
+@import './_collapse';
 :where(.css-dev-only-do-not-override-b92jn9).ant-layout{
     font-family: Helvetica, sans-serif !important;
     background: #101010;
@@ -15,4 +16,15 @@
     .ant-card-body{
         padding: 20px;
     }
+}
+.ant-list .ant-list-header{
+    padding: 0 !important;
+}
+.ant-drawer .ant-drawer-content{
+    width: 90%;
+    float: right;
+    background: #1a1a1a;
+}
+a{
+    color: white !important;
 }

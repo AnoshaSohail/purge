@@ -1,0 +1,17 @@
+.ant-collapse>.ant-collapse-item >.ant-collapse-header{
+    padding: 0 !important;
+    align-items: center;
+}
+.ant-collapse,.ant-collapse>.ant-collapse-item{
+    border: none;
+}
+.ant-collapse .ant-collapse-content{
+    color: white;
+    background: transparent;
+    border: none;
+}
+.ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-expand-icon {
+    height: 20px;
+    padding-inline-end: 4px;
+    color: white;
+}
