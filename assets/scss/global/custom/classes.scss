@@ -1,3 +1,20 @@
+/* * {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+ */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(15 8 41), rgb(79 18 74), rgb(35 46 83));;
+  border-radius: 20px;
+}
 // btn classes
 .primary-btn {
   background: #1a1a1a !important;

@@ -83,6 +83,19 @@ body {
     right: -48%;
 }
 }
+@media screen and (max-width:992px) {
+  .case-studies {
+    .left-blue-circle, .right-blue-circle{
+      display: none;
+    }
+  }
+}
+@media screen and (max-width:425px) {
+    .left-blue-circle, .right-blue-circle{
+     height: 300px !important;
+     width: 300px !important;
+    }
+}
 @media screen and (max-width: 375px) {
   .border {
     margin-inline: 8px;
