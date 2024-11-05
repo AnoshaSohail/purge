@@ -2,6 +2,12 @@
   img{
     width: 100%;
   }
+  .left-blue-circle{
+    height: 630px;
+    width: 630px;
+    left: -50%;
+    bottom: -15%;
+  }
   .our-team {
     background: url("/images/header-pattren.svg");
     background-color: #010001;
@@ -9,23 +15,6 @@
     overflow: hidden;
     img{
       width: 100%;
-    }
-    &::after {
-      content: "";
-      background: url("/images/left-box.svg");
-      height: 612px;
-      width: 612px;
-      position: absolute;
-      bottom: 0;
-    }
-    &::before {
-      content: "";
-      background: url("/images/right-box.svg");
-      height: 612px;
-      width: 612px;
-      position: absolute;
-      bottom: 0;
-      right: 0;
     }
     .banner {
       padding: 55px 0;
@@ -49,6 +38,9 @@
     background: #2A2B2B52;
     min-height: 387px;
     max-width: 288px;
+    img{
+      width: 50px !important;
+    }
   }
   .float-img-right{
     right: 19%;

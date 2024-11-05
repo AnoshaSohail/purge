@@ -2,7 +2,7 @@
   .our-services {
     background: url("/images/multi-bg.svg");
     background-color: #010001;
-   /*  &::after {
+    /*  &::after {
       content: "";
       background: url("/images/left-box.svg");
       height: 732px;
@@ -31,6 +31,10 @@
     }
   }
   .service-cards {
+    .right-blue-circle {
+      right: -50%;
+      bottom: -110px;
+    }
     .s-card {
       min-height: 297px;
       position: relative;

@@ -5,22 +5,23 @@
                 <a-col :xs="24" :lg="24" align="middle">
                     <p class="mb-0 fw-7 font-lg-45 font-sm-43  lh-46 white-text">Expert Care for Your Ideas!
                     </p>
-                    <a-button class="primary-btn bounce-button mt-10 z-index">Get a Proposal</a-button>
+                    <a-button class="primary-btn bounce-button mt-10 z-index-9">Get a Proposal</a-button>
                 </a-col>
             </a-row>
         </div>
         <div class="main-content">
             <a-row>
-                <a-col :xs="24" :md="16" :lg="16">
+                <a-col :xs="24" :md="16" :lg="16" class="position-rel">
                     <p class="mb-0 fw-7 font-lg-35 font-sm-33  lh-45 white-text">Our Services</p>
                     <p class="mb-0 smoke-text font-lg-20 font-sm-18  lh-30 fw-4">As an all-rounder in marketing, Purge excels in B2B,
                         blockchain, fintech, software, and high-growth startups. Our digital marketing and strategic
                         services are designed to scale your business to new heights. See how we can help you grow below:
                     </p>
+                    <div class="right-pink-circle"></div>
                 </a-col>
             </a-row>
-            <a-row class="mt-22 service-cards" :gutter="8">
-                <a-col :xs="24" :sm="8" :lg="6" v-for="(service, index) in services" :key="index">
+            <a-row class="mt-22 service-cards position-rel" :gutter="8">
+                <a-col :xs="24" :sm="8" :lg="6" v-for="(service, index) in services" :key="index"  class="">
                     <div class="s-card p-5 col-alignment pointer">
                         <div class="z-index">
                             <img :src="`/images/${service.icon}`" alt="">
@@ -29,6 +30,8 @@
                         </div>
                     </div>
                 </a-col>
+                <a-col class="position-rel" :xs="24"><div class="right-blue-circle"></div></a-col>
+                                
             </a-row>
             <div class="mt-130">
                 <Reviews />

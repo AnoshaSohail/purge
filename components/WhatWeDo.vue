@@ -1,10 +1,11 @@
 <template>
-    <div class="main-content">
+    <div class="main-content what-we-do">
         <div class="text-center mb-15">
             <p class="mb-0 fw-7 font-lg-35 font-sm-33  lh-45 white-text">What We Do</p>
             <p class="mb-0 smoke-text font-lg-20 font-sm-18  lh-30 fw-4">Transforming your business processes for the digital future
             </p>
         </div>
+        <div class="left-blue-circle"></div>
         <a-row :gutter="[8,12]" type="flex" justify="center">
             <a-col :lg="6">
                 <div class="service-card">

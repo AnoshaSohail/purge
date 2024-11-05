@@ -8,6 +8,7 @@
             </p>
         </div>
         <div class="case-studies col-alignment justify-content-center mt-8">
+            <div class="left-blue-circle"></div>
             <div class="horizontal-card grey-thick-border">
                 <img src="/images/test-case-1.svg" alt="">
             </div>
@@ -33,6 +34,7 @@
             <div class="horizontal-card grey-thick-border">
                 <img src="/images/test-case-1.svg" alt="">
             </div>
+            <div class="right-blue-circle"></div>
         </div>
     </div>
 </template>

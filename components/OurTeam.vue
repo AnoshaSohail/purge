@@ -18,7 +18,8 @@
       </div>
     </div>
     <div class="main-content mt-25">
-      <div class="text-center mb-15">
+      <div class="text-center mb-15 position-rel">
+        <div class="left-blue-circle"></div>
         <p class="mb-0 fw-7 font-lg-35 font-sm-33  lh-45 white-text">Our Development Team </p>
         <p class="mb-0 smoke-text font-lg-20 font-sm-18  lh-30 fw-4">Our team of engineers are highly skilled individuals, having
           excelled in their niche <br> exceptionally. Specializing in different technologies and sharing their knowledge
@@ -134,8 +135,9 @@
             <p class="mb-0 mt-5 smoke-text font-lg-16 font-sm-14  lh-30 fw-4">This means that no matter where your business is located,
               you can access the best marketing and design talent without any limitations.</p>
           </a-col>
-          <a-col :lg="12" align="end">
+          <a-col :lg="12" align="end" class="position-rel">
             <img src="/images/people-image-1.svg" alt="">
+            <div class="right-blue-circle"></div>
           </a-col>
         </a-row>
       </div>
@@ -144,7 +146,7 @@
         <a-row class="purge-cards-row" gutter="16">
           <a-col :lg="6" class="pl-0">
             <div class="purge-card px-4 py-7 border-radius-4">
-              <img src="/images/bitcoin-refresh.svg" alt="">
+              <img src="/images/bitcoin-refresh.svg" alt="" height="50" width="50">
               <p class="mb-0 fw-5 font-lg-20 font-sm-18  lh-40 white-text">Opportunity for all</p>
               <p class="mb-0 smoke-text font-lg-14 font-sm-12  lh-25 fw-3">No matter where you come from, what your background is, or
                 what challenges you've faced, we believe that everyone should have the opportunity to make the most of
@@ -153,7 +155,7 @@
           </a-col>
           <a-col :lg="6">
             <div class="purge-card px-4 py-7 border-radius-4">
-              <img src="/images/bitcoin-refresh.svg" alt="">
+              <img src="/images/bitcoin-refresh.svg" alt="" height="50" width="50">
               <p class="mb-0 fw-5 font-lg-20 font-sm-18  lh-40 white-text">Constant growth and learning</p>
               <p class="mb-0 smoke-text font-lg-14 font-sm-12  lh-25 fw-3">We don't just hire talented people, we also invest in their
                 ongoing growth and development. Our team members have the chance to join various training programs,
@@ -162,7 +164,7 @@
           </a-col>
           <a-col :lg="6">
             <div class="purge-card px-4 py-7 border-radius-4">
-              <img src="/images/bitcoin-refresh.svg" alt="">
+              <img src="/images/bitcoin-refresh.svg" alt="" height="50" width="50">
               <p class="mb-0 fw-5 font-lg-20 font-sm-18  lh-40 white-text">Going beyond borders</p>
               <p class="mb-0 smoke-text font-lg-14 font-sm-12  lh-25 fw-3">We don't limit ourselves to borders and boundaries. Our team
                 is always open to finding talent in new cultures and markets. This allows us to offer a truly global
@@ -171,7 +173,7 @@
           </a-col>
           <a-col :lg="6" class="pr-0">
             <div class="purge-card px-4 py-7 border-radius-4">
-              <img src="/images/bitcoin-refresh.svg" alt="">
+              <img src="/images/bitcoin-refresh.svg" alt="" height="50" width="50">
               <p class="mb-0 fw-5 font-lg-20 font-sm-18  lh-40 white-text">Fair pay for fair work</p>
               <p class="mb-0 smoke-text font-lg-14 font-sm-12  lh-25 fw-3">We value our team members and believe in paying them fairly
                 for the work they do. Our pay packages are designed to reward hard work, dedication, and continuous

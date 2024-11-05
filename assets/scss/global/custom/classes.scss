@@ -87,6 +87,37 @@
 .position-fix{
   position: fixed;
 }
+//patrens
+.right-blue-circle {
+  height: 612px;
+  width: 612px;
+  border-radius: 50%;
+  background: #2e3084;
+  filter: blur(330px);
+  position: absolute;
+  right: -147%;
+  bottom: 4%;
+}
+.left-blue-circle {
+  height: 612px;
+  width: 612px;
+  border-radius: 50%;
+  background: #2e3084;
+  filter: blur(330px);
+  position: absolute;
+  left: -147%;
+  bottom: 4%;
+}
+.right-pink-circle{
+  height: 612px;
+  width: 612px;
+  border-radius: 50%;
+  background: #842E76;
+  filter: blur(271px);
+  position: absolute;
+  right: -115%;
+  bottom: 6%;
+}
 // Float
 .float-right {
   float: right !important;
@@ -105,6 +136,9 @@
 }
 .z-index{
   z-index: 10000;
+}
+.z-index-9{
+  z-index: 999;
 }
 .col-alignment {
   display: flex !important;

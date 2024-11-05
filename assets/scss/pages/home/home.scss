@@ -3,32 +3,17 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #101010;
+  overflow-x: hidden;
 }
 .home-page {
   background: url("/images/header-pattren.svg");
   background-color: #010001;
   position: relative;
   overflow: hidden;
-  &::after {
-    content: "";
-    background: url("/images/left-box.svg");
-    height: 612px;
-    width: 612px;
-    position: absolute;
-    bottom: 0;
-  }
-  &::before {
-    content: "";
-    background: url("/images/right-box.svg");
-    height: 612px;
-    width: 612px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
   .banner {
     padding: 55px 0;
-    img{
+    position: relative;
+    img {
       width: 100%;
     }
     .banner-heading {
@@ -36,8 +21,21 @@ body {
     }
   }
 }
-.case-studies{
-  img{
+.case-studies {
+  position: relative;
+  .right-blue-circle{
+    height: 732px;
+    width: 732px;
+    filter: blur(350px);
+    right: -24%;
+  }
+  .left-blue-circle{
+    height: 732px;
+    width: 732px;
+    filter: blur(350px);
+    left: -24%;
+  }
+  img {
     width: 100%;
   }
 }
@@ -47,13 +45,25 @@ body {
   height: 500px;
   margin-inline: 44px;
 }
-.service-card {
-  display: flex;
-  justify-content: center;
-  .ant-card {
-    max-width: 288px;
+.what-we-do {
+  position: relative;
+  .left-blue-circle{
+    height: 300px;
+    width: 300px;
+    filter: blur(180px);
+    left: 50%;
+    bottom: 13%;
+    transform: translateX(-50%);
+  }
+  .service-card {
+    display: flex;
+    justify-content: center;
+    .ant-card {
+      max-width: 288px;
+    }
   }
 }
+
 .reviews {
   .rating {
     max-width: 390px;
@@ -68,12 +78,13 @@ body {
   border-radius: 34px;
   background: #2a2b2b52;
   backdrop-filter: blur(4px);
-  /* &::after {
-    content: "";
-    background: url("/images/right-box.svg");
-    height: 732px;
-    width: 732px;
-    position: absolute;
-    bottom: 0;
-  } */
+  .right-blue-circle {
+    filter: blur(315px);
+    right: -48%;
+}
+}
+@media screen and (max-width: 375px) {
+  .border {
+    margin-inline: 8px;
+  }
 }

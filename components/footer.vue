@@ -1,6 +1,6 @@
 <template>
   <div class=" footer mt-30 mb-19">
-    <div class="mb-10 main-content">
+    <div class="mb-10 main-content position-rel">
       <a-row :gutter="[0,16]">
         <a-col :xs="24" :md="5" :lg="5">
           <div class="logo">
@@ -35,7 +35,7 @@
       </a-row>
 
 
-
+      <div class="left-blue-circle"></div>
     </div>
     <a-divider style="height: 1px; background-color: #222222" />
     <div class="main-content copyrights col-alignment">
